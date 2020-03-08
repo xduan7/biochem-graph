@@ -2,7 +2,7 @@
 name = "biochem-graph"
 version = "0.1.0"
 description = "Preparing molecules and protein complexes for graph neural networks in PyTorch"
-authors = ["Xiaotian Duan <xduan7@gmail.com>"]
+authors = ["Xiaotian Duan <xduan7 at uchicago.edu>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
