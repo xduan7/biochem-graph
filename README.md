@@ -12,11 +12,15 @@ Preparing molecules and protein complexes for graph neural networks in PyTorch.
 - [ ] load_mol_from_file
 - [ ] convert_mol_to_graph
     - [ ] convert_mol_to_dgl_graph
-    - [ ] convert_mol_to_pyg_graph 
+    - [ ] ~~convert_mol_to_pyg_graph~~
 - [ ] load_prt_from_file
 - [ ] convert_prt_to_graph
     - [ ] convert_prt_to_dgl_graph
-    - [ ] convert_prt_to_pyg_graph
+    - [ ] ~~convert_prt_to_pyg_graph~~
+- [ ] faker
+    - [ ] generate_mol
+    - [ ] generate_prt
+    - [ ] generate_*_graph
 - [ ] visualize (*)
     - [ ] visualize_mol
     - [ ] visualize_prt
