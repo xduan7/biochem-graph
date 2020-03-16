@@ -1,5 +1,9 @@
 # BioChem Graph
+<<<<<<< HEAD
 Preparing molecules and protein complexes for graph neural networks in PyTorch
+=======
+Preparing molecules and protein complexes for graph neural networks in PyTorch.
+>>>>>>> dev
 
 
 ## Requirements
@@ -9,12 +13,27 @@ Preparing molecules and protein complexes for graph neural networks in PyTorch
 
 
 ## API Draft
+<<<<<<< HEAD
 - [ ] convert_mol_to_graph
     - [ ] convert_mol_to_dgl_graph
     - [ ] convert_mol_to_pyg_graph 
 - [ ] convert_prt_to_graph
     - [ ] convert_prt_to_dgl_graph
     - [ ] convert_prt_to_pyg_graph
+=======
+- [ ] load_mol_from_file
+- [ ] convert_mol_to_graph
+    - [ ] convert_mol_to_dgl_graph
+    - [ ] ~~convert_mol_to_pyg_graph~~
+- [ ] load_prt_from_file
+- [ ] convert_prt_to_graph
+    - [ ] convert_prt_to_dgl_graph
+    - [ ] ~~convert_prt_to_pyg_graph~~
+- [ ] faker
+    - [ ] generate_mol
+    - [ ] generate_prt
+    - [ ] generate_*_graph
+>>>>>>> dev
 - [ ] visualize (*)
     - [ ] visualize_mol
     - [ ] visualize_prt
@@ -31,5 +50,8 @@ Preparing molecules and protein complexes for graph neural networks in PyTorch
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> dev
