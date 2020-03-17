@@ -13,14 +13,6 @@ Preparing molecules and protein complexes for graph neural networks in PyTorch.
 
 
 ## API Draft
-<<<<<<< HEAD
-- [ ] convert_mol_to_graph
-    - [ ] convert_mol_to_dgl_graph
-    - [ ] convert_mol_to_pyg_graph 
-- [ ] convert_prt_to_graph
-    - [ ] convert_prt_to_dgl_graph
-    - [ ] convert_prt_to_pyg_graph
-=======
 - [ ] load_mol_from_file
 - [ ] convert_mol_to_graph
     - [ ] convert_mol_to_dgl_graph
@@ -33,7 +25,6 @@ Preparing molecules and protein complexes for graph neural networks in PyTorch.
     - [ ] generate_mol
     - [ ] generate_prt
     - [ ] generate_*_graph
->>>>>>> dev
 - [ ] visualize (*)
     - [ ] visualize_mol
     - [ ] visualize_prt
