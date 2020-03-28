@@ -1,0 +1,115 @@
+18302
+     RDKit          2D
+
+  7  6  0  0  1  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  4  1  0
+  2  6  1  0
+  3  7  1  0
+  4  5  1  0
+  4  6  1  0
+  5  7  1  0
+M  END
+>  <PUBCHEM_COMPOUND_CID>  (1) 
+18302
+
+>  <PUBCHEM_CONFORMER_RMSD>  (1) 
+0.4
+
+>  <PUBCHEM_CONFORMER_DIVERSEORDER>  (1) 
+13
+36
+39
+40
+9
+33
+14
+6
+4
+31
+22
+34
+1
+35
+10
+17
+8
+26
+37
+29
+28
+3
+30
+16
+24
+12
+18
+25
+11
+5
+15
+38
+21
+7
+19
+23
+2
+27
+20
+32
+
+>  <PUBCHEM_MMFF94_PARTIAL_CHARGES>  (1) 
+9
+1 -0.68
+15 0.4
+16 0.4
+17 0.4
+2 -0.68
+3 -0.68
+4 0.28
+6 0.28
+7 0.28
+
+>  <PUBCHEM_EFFECTIVE_ROTOR_COUNT>  (1) 
+3
+
+>  <PUBCHEM_PHARMACOPHORE_FEATURES>  (1) 
+6
+1 1 acceptor
+1 1 donor
+1 2 acceptor
+1 2 donor
+1 3 acceptor
+1 3 donor
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>  (1) 
+7
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>  (1) 
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>  (1) 
+1
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>  (1) 
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>  (1) 
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>  (1) 
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>  (1) 
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>  (1) 
+1
+
+$$$$
