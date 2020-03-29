@@ -1,0 +1,136 @@
+12423
+     RDKit          3D
+
+ 11 10  0  0  0  0  0  0  0  0999 V2000
+   -0.0611   -0.1024   -2.5181 I   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1662    1.6696    0.8401 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9529   -1.4029    1.2916 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6530   -0.0841    1.3370 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6288    2.2719   -0.2655 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1871   -0.9474   -0.4623 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9560   -1.4048   -0.3865 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1893    1.4226    0.1183 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1353   -0.8667    0.1884 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3204   -0.5392    0.2324 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0115   -0.0167   -0.3755 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1 11  1  0
+  2  8  1  0
+  3  9  1  0
+  4 10  1  0
+  5  8  2  0
+  6  9  2  0
+  7 10  2  0
+  8 11  1  0
+  9 11  1  0
+ 10 11  1  0
+M  CHG  6   2  -1   3  -1   4  -1   8   1   9   1  10   1
+M  END
+>  <PUBCHEM_COMPOUND_CID>  (1) 
+12423
+
+>  <PUBCHEM_CONFORMER_RMSD>  (1) 
+0.6
+
+>  <PUBCHEM_CONFORMER_DIVERSEORDER>  (1) 
+1
+3
+2
+
+>  <PUBCHEM_MMFF94_PARTIAL_CHARGES>  (1) 
+11
+1 -0.19
+10 0.8
+11 0.91
+2 -0.52
+3 -0.52
+4 -0.52
+5 -0.52
+6 -0.52
+7 -0.52
+8 0.8
+9 0.8
+
+>  <PUBCHEM_EFFECTIVE_ROTOR_COUNT>  (1) 
+3
+
+>  <PUBCHEM_PHARMACOPHORE_FEATURES>  (1) 
+10
+1 1 hydrophobe
+1 2 acceptor
+1 2 anion
+1 3 acceptor
+1 3 anion
+1 4 acceptor
+1 4 anion
+1 5 acceptor
+1 6 acceptor
+1 7 acceptor
+
+>  <PUBCHEM_HEAVY_ATOM_COUNT>  (1) 
+11
+
+>  <PUBCHEM_ATOM_DEF_STEREO_COUNT>  (1) 
+0
+
+>  <PUBCHEM_ATOM_UDEF_STEREO_COUNT>  (1) 
+0
+
+>  <PUBCHEM_BOND_DEF_STEREO_COUNT>  (1) 
+0
+
+>  <PUBCHEM_BOND_UDEF_STEREO_COUNT>  (1) 
+0
+
+>  <PUBCHEM_ISOTOPIC_ATOM_COUNT>  (1) 
+0
+
+>  <PUBCHEM_COMPONENT_COUNT>  (1) 
+1
+
+>  <PUBCHEM_CACTVS_TAUTO_COUNT>  (1) 
+1
+
+>  <PUBCHEM_CONFORMER_ID>  (1) 
+0000308700000001
+
+>  <PUBCHEM_MMFF94_ENERGY>  (1) 
+29.4476
+
+>  <PUBCHEM_FEATURE_SELFOVERLAP>  (1) 
+51.003
+
+>  <PUBCHEM_SHAPE_FINGERPRINT>  (1) 
+12423570 1 9843831885869056951
+137420 1 13037187113348509092
+16945 1 17770226268656318945
+5084963 1 17480313700044332917
+5943 1 14720423111906372895
+
+>  <PUBCHEM_SHAPE_MULTIPOLES>  (1) 
+188.15
+1.99
+1.92
+1.82
+1.67
+0.13
+0.79
+-0.32
+0.12
+-0.26
+-0.84
+-0.52
+0.06
+-0.12
+
+>  <PUBCHEM_SHAPE_SELFOVERLAP>  (1) 
+345.408
+
+>  <PUBCHEM_SHAPE_VOLUME>  (1) 
+122.6
+
+>  <PUBCHEM_COORDINATE_TYPE>  (1) 
+2
+5
+10
+
+$$$$
