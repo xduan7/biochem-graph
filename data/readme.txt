@@ -1,0 +1,1 @@
+The SDF file(s) are directly downloaded from FTP server of PubChem: ftp://ftp.ncbi.nlm.nih.gov/pubchem/Compound_3D/01_conf_per_cmpd/SDF/, used for testing and data generation in the biochem-graph package.

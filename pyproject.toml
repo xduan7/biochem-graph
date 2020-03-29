@@ -6,8 +6,9 @@ authors = ["Xiaotian Duan <xduan7 at uchicago.edu>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 conda = "^4.3.16"
+dgl = "^0.4.2"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.761"
