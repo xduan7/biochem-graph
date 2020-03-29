@@ -1,6 +1,6 @@
 """
 File Name:          encoding.py
-Project:            biochem-graph
+Project:            bcgraph
 
 File Description:
 

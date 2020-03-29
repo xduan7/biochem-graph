@@ -1,17 +1,18 @@
 """
 File Name:          __init__.py.py
-Project:            biochem-graph
+Project:            bcgraph
 
 File Description:
 
 """
 from .encoding import one_hot_encode
-from .molecule import RDKitAtomFeature, RDKitBondFeature
+from .mol import RDKitAtomFeature, RDKitBondFeature
+
 
 __all__ = [
-    # biochem-graph.utils.encoding
+    # bcgraph.utils.encoding
     'one_hot_encode',
-    # biochem-graph.utils.molecule
+    # bcgraph.utils.molecule
     'RDKitAtomFeature',
     'RDKitBondFeature',
 ]

@@ -344,4 +344,6 @@ Temporary Items
 # Editor-based Rest Client
 
 # Android studio 3.1+ serialized cache file
+
+# self-defined ignores
 /data/interim/*.sdf

@@ -1,36 +1,24 @@
 """
-File Name:          molecule.py
+File Name:          get_random_mol.py
 Project:            bcgraph
 
 File Description:
 
 """
-from typing import Optional, List, Sequence, Callable
+from random import randint
+from os.path import abspath, join
 
-from rdkit.Chem import Mol
-from dgl import DGLGraph
-
-
-def get_random_mol(
-        predicates: Optional[Sequence[Callable]] = None,
-        random_state: int = 0,
-) -> Mol:
-    pass
+from rdkit.Chem import Mol, SDMolSupplier
 
 
-def mol_smiles(
-        predicates: Optional[Sequence[Callable]] = None,
-        random_state: int = 0,
-) -> str:
-    pass
+PROCESSED_DATA_DIR = abspath('./data')
+PROCESSED_SDF_PATH = join(PROCESSED_DATA_DIR, f'pubchem_mols.sdf')
 
 
-def mol_graph(
-        master_atom: bool = True,
-        master_bond: bool = True,
-        atom_feat_list: Optional[List[str]] = None,
-        bond_feat_list: Optional[List[str]] = None,
-        predicates: Optional[Sequence[Callable]] = None,
-        random_state: int = 0,
-) -> DGLGraph:
-    pass
+def get_random_mol() -> Mol:
+
+    _mol_supplier = SDMolSupplier(PROCESSED_SDF_PATH)
+    _index = randint(0, len(_mol_supplier) - 1)
+    assert _mol_supplier[_index]
+
+    return _mol_supplier[_index]

@@ -1,5 +1,5 @@
 """
-File Name:          molecule.py
+File Name:          get_random_mol.py
 Project:            bcgraph
 
 File Description:
