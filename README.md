@@ -1,9 +1,5 @@
 # BioChem Graph
-<<<<<<< HEAD
-Preparing molecules and protein complexes for graph neural networks in PyTorch
-=======
 Preparing molecules and protein complexes for graph neural networks in PyTorch.
->>>>>>> dev
 
 
 ## Requirements
@@ -41,8 +37,3 @@ Preparing molecules and protein complexes for graph neural networks in PyTorch.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
-<<<<<<< HEAD
-
-
-=======
->>>>>>> dev
