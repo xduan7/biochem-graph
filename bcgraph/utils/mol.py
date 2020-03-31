@@ -5,11 +5,16 @@ Project:            bcgraph
 File Description:
 
 """
+import logging
 from enum import Enum
 from collections import namedtuple
-from rdkit.Chem import Atom, ChiralType, HybridizationType, \
-    Bond, BondDir, BondType, BondStereo
 
+import numpy as np
+from rdkit.Chem import Atom, ChiralType, HybridizationType, \
+    Bond, BondDir, BondType, BondStereo, Mol, Conformer
+
+
+_LOGGER = logging.getLogger(__name__)
 
 _RDKitFeature: type = namedtuple(
     'RDKitFeature',
@@ -195,3 +200,25 @@ class RDKitBondFeature(Enum):
         rdkit_function=Bond.GetValenceContrib,
         returned_dtype=float,
     ),
+
+
+
+def validate_conformer(
+        mol: Mol,
+        conformer: Conformer,
+) -> bool:
+
+    # throw warnings if
+    # - the conformer is actually 2D (useless Z coordinate in graph)
+    # - some atoms have all-zero coordinates, which implies bad conformer
+    _positions: np.array = conformer.GetPositions()
+    if not _positions[:, 2].any():
+        _warning_msg = f'Conformer has no Z coordinates. Continuing ...'
+        _LOGGER.warning(_warning_msg)
+    if not np.array([_p.any() for _p in _positions]).all():
+        _warning_msg = f'Conformer has atom(s) with invalid coordinates ' \
+                       f'(0.0, 0.0, 0.0). Continuing ...'
+        _LOGGER.warning(_warning_msg)
+
+    # make sure that the molecule and conformer are of the same size
+    return len(mol.GetAtoms()) == len(mol.GetConformer().GetPositions())
