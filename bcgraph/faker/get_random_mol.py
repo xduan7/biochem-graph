@@ -11,7 +11,8 @@ from os.path import abspath, join
 from rdkit.Chem import Mol, SDMolSupplier
 
 
-PROCESSED_DATA_DIR = abspath('./data')
+# should move the directory strings into a global place
+PROCESSED_DATA_DIR = abspath('./bcgraph/faker/data')
 PROCESSED_SDF_PATH = join(PROCESSED_DATA_DIR, f'pubchem_mols.sdf')
 
 

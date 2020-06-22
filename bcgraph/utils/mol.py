@@ -270,7 +270,7 @@ def convert_mol_to_generic_graph(
 
             # one-hot encoding if the feature is not numeric/binary AND the
             # one_hot_encoding argument is set to True
-            if type(_atom_feature_type) in (int, float, bool):
+            if _atom_feature_type in (int, float, bool):
                 _single_node_attr.append(_atom_feature)
             elif one_hot_encoding:
                 _atom_feature_type: tuple
@@ -353,3 +353,19 @@ def convert_mol_to_generic_graph(
         'edge_index': edge_index,
         'edge_attr': edge_attr,
     }
+
+
+# def get_node_attr_dim(
+#         conformer: Optional[Conformer],
+#         atom_rdkit_features: Sequence[RDKitFeature],
+#         one_hot_encoding: bool = True,
+#         master_node: bool = True,
+# ) -> int:
+#     return 0
+
+# def get_edge_attr_dim(
+#         bond_rdkit_features: Sequence[RDKitFeature],
+#         one_hot_encoding: bool = True,
+#         master_node: bool = True,
+# ) -> int:
+#     return 0
